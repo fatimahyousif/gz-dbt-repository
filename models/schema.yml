@@ -50,13 +50,7 @@ sources:
         identifier: raw_gz_criteo
       - name: facebook
         identifier: raw_gz_facebook
-      - name: int_campaigns
-        description: data from all campaigns
-        columns:
-        - name: (campaign_key || '-' || date_date)"
-        tests:
-            - unique 
-            - not_null   
+       
 models:
   - name: finance_campaigns_day
     description: global kpi
